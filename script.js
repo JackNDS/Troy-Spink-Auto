@@ -11,7 +11,7 @@
     item.addEventListener('click', activeLink));
 
     const counters = document.querySelectorAll('.counter');
-    const speed = 700;
+    const speed = 400;
 
     counters.forEach(counter => {
         const updateCount = () => {
